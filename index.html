@@ -1,0 +1,56 @@
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta lang="pt-br">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlayKitJs</title>
+  <link rel="icon" href="icon.png">
+  
+</head>
+
+<body>
+  <style>
+    * {
+      overflow: hidden;
+      outline: none;
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      background: #333;
+    }
+    
+    #vignette {
+    	position: fixed;
+    	left: 0;
+    	top: 0;
+    	width: 100%;
+    	height: 100%;
+    	box-shadow: inset 0px 0px 0px #000;
+    }
+  </style>
+
+  <canvas></canvas>
+  <div id="vignette"></div>
+  <script src="matter.js"></script>
+  <script src="global_values.js"></script>
+  <script src="functions.js"></script>
+  <script>
+    const MODE = "GAME";
+  </script>
+  <script src="utils.js"></script>
+  <script src="script.js"></script>
+  <script src="map.js"></script>
+  <script src="joystick.js"></script>
+  <script src="game.js"></script>
+  <p id="p"> </p>
+  <!-- <h1 id="debug" style="color: white; position: fixed"></h1> -->
+
+</body>
+
+</html>

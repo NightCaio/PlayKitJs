@@ -1,0 +1,13 @@
+let backdrop_objects = [];
+let map_objects = [];
+let worldObjectBodies = [];
+let ui_elements = [];
+let MAP_WIDTH = 600;
+let MAP_HEIGHT = 400;
+const SCREEN_WIDTH = 600;
+const SCREEN_HEIGHT = 400;
+const MIDDLEX = 300;
+const MIDDLEY = 200;
+let SCENE_START = false;
+let lastCalledTime;
+let fps;

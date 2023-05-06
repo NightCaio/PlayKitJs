@@ -1,0 +1,1 @@
+PLAYER.sprite = "https://media.discordapp.net/attachments/1026273555446513715/1092250122605301791/HumanBase1.png";
